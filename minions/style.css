@@ -1,0 +1,67 @@
+/* Font popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+      /* overflow: hidden; */
+}
+section{
+    margin:auto;
+    max-width: 75%;
+    padding-top: 4rem;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.logobox img{
+   width: 475px;
+}
+
+.hello-img{
+    position: relative;
+    z-index: 2;
+}
+.bello{
+    flex-direction: column;
+    position: relative;
+    z-index: -8;
+}
+
+.hello-text {
+    font-size: 17px;
+    position: relative;
+    left: 11rem;
+top: -5.4rem;
+  }
+.p{
+    font-size: 17rem;
+font-weight: 900;
+margin: auto;
+position: relative;
+z-index: 1;
+color: #FFDB23;
+
+
+}
+.hello-text{
+    font-size: 18px;
+    color: #b6b6b6;
+    
+}
+.hello-img {
+  position: relative;
+  /* z-index: ; */
+  top: -15rem;
+ 
+  left: 8px;
+  width: 950px;
+}
+
+  /* video */
+  .title-video{
+    position: relative;
+    z-index: 1;
+    top: -13rem;
+  }

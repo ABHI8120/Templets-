@@ -1,0 +1,87 @@
+ /* This is background style code  */
+ /* This is background style code  */
+ /* This is background style code  */
+ /* This is background style code  */
+ /* This is background style code  */
+ /* This is background style code  */
+
+ /* background */
+ .background {
+     position: relative;
+     z-index: -10;
+
+     height: 60rem;
+     background: rgb(254, 232, 95);
+     background: radial-gradient(circle, rgba(254, 232, 95, 1) 0%, rgba(255, 199, 3, 1) 100%);
+     top: -35rem;
+ }
+
+
+ /* background part up down */
+ .ro1 {
+     height: 125px;
+     width: 100%;
+     width: calc(200% + 1.3px);
+     position: relative;
+     background-color: #FFFFFF;
+     transform: rotate(-2.8grad);
+     overflow: hidden;
+     right: 9px;
+     z-index: -9;
+     top: -35rem;
+ }
+
+ .ro2 {
+     height: 200px;
+     width: 100%;
+     width: calc(207% + 1.3px);
+     position: relative;
+     background-color: #FFFFFF;
+     transform: rotate(9.2grad);
+     overflow: hidden;
+     right: 60px;
+     z-index: -9;
+     top: -35rem;
+ }
+
+ /* End background part up down */
+
+ /* Bg play button bg */
+ .playbg0,
+ .playbg1,
+ .playbg2 {
+     border-radius: 50%;
+
+ }
+
+ .playbg0 {
+     width: 170px;
+     height: 170px;
+     position: relative;
+     z-index: -7;
+     left: 45rem;
+     top: -25rem;
+     background: #fff;
+
+ }
+
+ .playbg1 {
+     width: 140px;
+     height: 140px;
+     background-color: #ffc700;
+ }
+
+ .playbg2 {
+     width: 140px;
+     height: 135px;
+     background-color: #FFDB23;
+     position: relative;
+     left: 0px;
+     top: 5.5px;
+ }
+
+ .playbg2 img {
+     width: 100px;
+ }
+
+ /* End play button bg */
