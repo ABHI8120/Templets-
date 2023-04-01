@@ -8,28 +8,26 @@
  /* background */
  .background {
      position: relative;
-     z-index: -10;
-
+     /* z-index: -10; */
      height: 60rem;
      background: rgb(254, 232, 95);
      background: radial-gradient(circle, rgba(254, 232, 95, 1) 0%, rgba(255, 199, 3, 1) 100%);
-     top: -35rem;
  }
 
 
  /* background part up down */
  .ro1 {
-     height: 125px;
-     width: 100%;
-     width: calc(200% + 1.3px);
-     position: relative;
-     background-color: #FFFFFF;
-     transform: rotate(-2.8grad);
-     overflow: hidden;
-     right: 9px;
-     z-index: -9;
-     top: -35rem;
- }
+    height: 230px;
+    width: 100%;
+    width: calc(200% + 1.3px);
+    position: relative;
+    background-color: #FFFFFF;
+    transform: rotate(-2.8grad);
+    overflow: hidden;
+    right: 9px;
+    /* z-index: -5; */
+    top: -124px;
+  }
 
  .ro2 {
      height: 200px;
@@ -40,21 +38,21 @@
      transform: rotate(9.2grad);
      overflow: hidden;
      right: 60px;
-     z-index: -9;
-     top: -35rem;
+     /* z-index: -2; */
+     /* top: -35rem; */
  }
 
  /* End background part up down */
 
  /* Bg play button bg */
- .playbg0,
+ /* .playbg0,
  .playbg1,
  .playbg2 {
      border-radius: 50%;
 
- }
+ } */
 
- .playbg0 {
+ /* .playbg0 {
      width: 170px;
      height: 170px;
      position: relative;
@@ -63,25 +61,30 @@
      top: -25rem;
      background: #fff;
 
- }
+ } */
 
- .playbg1 {
+ /* .playbg1 {
      width: 140px;
      height: 140px;
      background-color: #ffc700;
- }
+ } */
 
- .playbg2 {
+ /* .playbg2 {
      width: 140px;
      height: 135px;
      background-color: #FFDB23;
      position: relative;
      left: 0px;
      top: 5.5px;
- }
+ } */
 
- .playbg2 img {
+ /* .playbg2 img {
      width: 100px;
- }
+ } */
 
  /* End play button bg */
+ /* .bgtext{
+    position: relative;
+    z-index: 1;
+    width: 30rem;
+ } */

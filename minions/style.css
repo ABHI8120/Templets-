@@ -6,62 +6,134 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
       /* overflow: hidden; */
-}
+      display: flex;
+      justify-content: center;
+ }
 section{
-    margin:auto;
-    max-width: 75%;
-    padding-top: 4rem;
+    /* margin:auto; */
+
+    width: 75%;
     border: 1px solid black;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
+
+/* div{
+  border: 1px solid red;
+} */
+
+
+/* logo img */
 .logobox img{
    width: 475px;
+   margin-top: 4rem;
 }
 
-.hello-img{
-    position: relative;
-    z-index: 2;
-}
+/* Welcome  text -- bello --- */
 .bello{
     flex-direction: column;
-    position: relative;
-    z-index: -8;
 }
 
-.hello-text {
-    font-size: 17px;
-    position: relative;
-    left: 11rem;
-top: -5.4rem;
-  }
-.p{
-    font-size: 17rem;
-font-weight: 900;
-margin: auto;
-position: relative;
-z-index: 1;
-color: #FFDB23;
-
-
+.bello span {
+  font-size: 17rem;
+  font-weight: 900;
+  margin: 0px;
+  color: #FFDB23;
+  height: 305px;
 }
+
 .hello-text{
     font-size: 18px;
     color: #b6b6b6;
-    
+    margin-bottom: 0px;
+margin-top: 0px;
+margin-left: -55rem;
 }
-.hello-img {
-  position: relative;
-  /* z-index: ; */
-  top: -15rem;
- 
+
+/* , */
+.hello-img-box
+{
+    position: relative;
+    z-index: 2;
+   top: -7rem;
   left: 8px;
+  overflow: hidden;
+}
+
+.hello-img{
   width: 950px;
+
+}
+
+/* bg */
+.s2{
+
+  position: relative;
+  z-index: 1;
+  background: rgb(254, 232, 95);
+   background: radial-gradient(circle, rgba(254, 232, 95, 1) 0%, rgba(255, 199, 3, 1) 100%);
 }
 
   /* video */
-  .title-video{
-    position: relative;
-    z-index: 1;
-    top: -13rem;
+  .title-video {
+    position: absolute;
+    left: 18rem;
+    top: -7rem;
+    z-index: 6;
+    
   }
+  .video-box1{
+    flex-direction: column;
+    
+   
+  }
+ .h1{
+  height: 100px;
+  position: absolute;
+  z-index: 5;
+ }
+.videoText{
+  width: 65%;
+  position: absolute;
+  z-index: 5;
+  top: 20rem;
+}
+
+ .videoText p{
+text-align: center;
+color: #3E3A33;
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 25px;
+ }
+
+
+    .qunmark img{
+      position: relative;
+      z-index: 3;
+     
+    }
+    .toimg {
+      left: 49%;
+      width: 180px;
+      top: -6rem;
+      transform: rotate(30grad);
+      color: #a07300;
+    }
+    .oneimg {
+      left: 48rem;
+      transform: rotate(-20grad);
+      width: 400px;
+      
+    }
+
+
+
+
+
+
+
+
+footer{
+  height: 200px;
+}
