@@ -1,0 +1,19 @@
+/* sen font style  */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+/* poppins font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap');
+
+/* font-family: 'Sen', sans-serif; 
+font-family: 'Poppins', sans-serif;
+
+*/
+
+
+.flex{
+    display: flex;
+}
+.flexs{
+    display: flex;
+    justify-content: center;
+}
