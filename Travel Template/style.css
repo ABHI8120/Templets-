@@ -5,14 +5,17 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+    overflow: hidden;
 }
 
 /* Navigason */
 
 /* nav logo */
-nav{
-   height:90px;
+nav {
+    height: 90px;
 }
+
 nav .logo {
     color: #2D3134;
     margin-left: 135px;
@@ -52,23 +55,224 @@ ul li a {
 }
 
 /* Button */
-.navbutton{
+.navbutton {
     margin-right: 190px;
 }
+
 .btn1 {
     width: 170px;
     height: 54px;
     border: 2px solid #F66F4D;
     border-radius: 27px;
-    background-color: #fff;
+    background-color: #E5E5E5;
     color: #F66F4D;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     text-align: center;
 }
+
 /* End Navigason =================================================
 =================================================================== */
 
 
-/*  */
+/* Header */
+header {
+    justify-content: space-around;
+}
+
+/* Header left */
+header .left {
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 86px;
+    color: #2D3134;
+    font-family: 'Sen', sans-serif;
+    max-width: 577px;
+}
+
+header .left .plan {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5B5F62;
+    max-width: 500px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 26px;
+}
+
+/*plase and date sections */
+.plasedate {
+    border-radius: 38px;
+    background-color: #FDFEFF;
+    width: 500px;
+    height: 76px;
+    margin-top: 44px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+/* boder */
+.boder {
+    width: 1px;
+    height: 47px;
+    background: #EAEAEB;
+
+}
+
+/* date */
+.where,
+.date {
+    width: 136px;
+    height: 38px;
+
+}
+
+.where span,
+.date span {
+
+    font-weight: 500;
+    font-size: 18px;
+    color: #2D3134;
+
+}
+
+.where p,
+.date p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #9498A4;
+    margin-top: 6px;
+
+}
+
+.where i,
+.date i {
+    margin-left: 10px;
+}
+
+/* search */
+.searchbox {
+    background-color: #F66F4D;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+}
+
+/* Header right */
+header .right {
+    max-width: 535px;
+}
+
+header .imgBGbox {
+    width: 469px;
+    height: 469px;
+    background: #FFD482;
+    border-radius: 50%;
+    margin-top: 150px;
+
+}
+
+header .imgBGbox .bgimg {
+    width: 463px;
+    height: 450px;
+    color: #FAF8ED;
+    position: absolute;
+    left: 1094px;
+    top: 102px;
+    margin-top: 150px;
+}
+
+header .manimgbox {
+    width: 470px;
+    height: 596px;
+}
+
+header .manimgbox .manimg {
+    position: absolute;
+    width: 470px;
+    height: 596px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 113px;
+}
+
+/* bg map&globe img */
+.smallimg {
+    position: absolute;
+}
+
+.smallimg .mapimg {
+    transform: rotate(-5deg);
+    position: relative;
+    top: -60px;
+    left: 20px;
+    width: 60px;
+}
+
+.smallimg .globe {
+    transform: rotate(-10deg);
+    position: relative;
+    right: -350px;
+    top: 30px;
+    width: 55px;
+}
+
+/* card */
+.dubaicard {
+    position: relative;
+    width: 130px;
+    height: 145.71px;
+    background: #fff;
+    border-radius: 9.87879px;
+    flex-direction: column;
+    top: 270px;
+left: -65px;
+}
+
+.dubaicard .dubaiimg {
+    width: 130.68px;
+    height: 88.91px;
+}
+
+.dubaicard p {
+    font-family: 'Inter', sans-serif;
+    width: 94px;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: #2D3134;
+    margin: 10px auto;
+
+}
+
+.dubaicard .imgs img {
+    position: relative;
+}
+
+.dubaicard .imgs .img1 {
+    left: 5px;
+    top: -20px;
+}
+
+.dubaicard .imgs .img2 {
+    top: -20px;
+    left: -28px;
+}
+
+.dubaicard .imgs .img3 {
+    top: -20px;
+    left: -60px;
+}
+
+/* header section =====================================================
+========================================================== */
