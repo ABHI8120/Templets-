@@ -6,7 +6,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Navigason */
@@ -14,6 +14,7 @@ body {
 /* nav logo */
 nav {
     height: 90px;
+    overflow: hidden;
 }
 
 nav .logo {
@@ -79,6 +80,7 @@ ul li a {
 /* Header */
 header {
     justify-content: space-around;
+    overflow: hidden;
 }
 
 /* Header left */
@@ -129,7 +131,9 @@ header .left .plan {
 
 }
 
-/* date */
+/* date & where */
+
+
 .where,
 .date {
     width: 136px;
@@ -157,6 +161,10 @@ header .left .plan {
 
 .where i,
 .date i {
+    margin-left: 10px;
+}
+
+.where {
     margin-left: 10px;
 }
 
@@ -237,7 +245,7 @@ header .manimgbox .manimg {
     border-radius: 9.87879px;
     flex-direction: column;
     top: 270px;
-left: -65px;
+    left: -65px;
 }
 
 .dubaicard .dubaiimg {
@@ -276,3 +284,121 @@ left: -65px;
 
 /* header section =====================================================
 ========================================================== */
+
+
+/* cagegories  */
+
+/* first */
+.categories .first {
+    justify-content: space-between;
+    align-items: center;
+    margin: 79px 170px 0;
+}
+
+.categories .left h1 {
+    width: 298px;
+    height: 56px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 56px;
+    color: #2D3134;
+}
+
+.categories .left p {
+    font-family: 'Inter', sans-serif;
+    width: 370px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5B5F62;
+    margin-top: 15px;
+}
+
+/* aro button */
+.categories button {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    /* #2D3134 */
+    border: 1px solid #2D3134;
+}
+
+.categories .firstbtn {
+    color: #2D3134;
+}
+
+.categories .secondbtn {
+    background-color: #2D3134;
+    color: #FAF8ED;
+}
+
+/* Categories secend */
+
+.categories .second {
+    margin: 60px 170px 0;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+/* Categories img */
+
+.whimgbox {
+    width: 170px;
+    height: 274px;
+
+}
+
+.whimgbox p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #2D3134;
+}
+
+/* hover */
+.whimgbox :hover {}
+
+/* Categories End ===========================
+======================================== */
+
+/* Experience */
+.experience {
+    margin-top: 50px;
+}
+
+.experience .left{
+    max-width: 500px;
+}
+.experience .left .imagebox {
+    width: 490px;
+    height: 490px;
+    background: #FFD482;
+    border-radius: 50%;
+    margin: 150px 150px 0 0;
+
+}
+
+.experience .imagebox img {
+    width: 492px;
+    position: relative;
+    top: -75px;
+    border-radius: 50% 50% 70% 65% / 60% 60% 60% 60%;
+}
+
+.experience .imagebox .img {
+    width: 470px;
+    height: 596px;
+    
+
+}
+
+/* Experience right */
+
+.experience .right{
+    width: 535px;
+    /* height: 515px; */
+}
