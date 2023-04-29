@@ -6,9 +6,13 @@
 /* inter font style */
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Inter&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap');
+
 /* font-family: 'Sen', sans-serif; 
 font-family: 'Poppins', sans-serif;
 font-family: 'Inter', sans-serif;
+
+font-family: 'Inter Tight', sans-serif;
 
 */
 
@@ -19,4 +23,41 @@ font-family: 'Inter', sans-serif;
 .flexs{
     display: flex;
     justify-content: center;
+}
+.flexas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexa{
+    display: flex;
+    align-items: center;
+}
+
+
+/* aro button */
+.arrobtn{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid #2D3134;
+}
+
+.arrobtnfirst{
+    color: #2D3134;
+    background-color: #fff;
+}
+.arrobtnfirst:hover{
+    background-color: #2D3134;
+    color: #FAF8ED;
+}
+
+.arrobtnsecond {
+    background-color: #2D3134;
+    color: #FAF8ED;
+}
+.arrobtnsecond:hover{
+    color: #2D3134;
+    background-color: #fff;
 }
