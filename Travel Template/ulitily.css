@@ -43,6 +43,12 @@ font-family: 'Inter Tight', sans-serif;
     margin: 0 5px;
     border: 1px solid #2D3134;
 }
+.arrobtn:hover{
+    position: relative;
+    z-index: 5;
+    transform: scale();
+    scale: 1.1;
+}
 
 .arrobtnfirst{
     color: #2D3134;

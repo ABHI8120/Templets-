@@ -7,24 +7,26 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
     /* overflow: hidden; */
+    flex-direction: column;
 }
 
 /* Navigason */
 
 /* nav logo */
-nav {
+nav {max-width: 1440px;
+    width: 100%;
     height: 90px;
     overflow: hidden;
 }
 
-nav .logo {
+.logo {
     color: #2D3134;
     margin-left: 135px;
     max-width: 100px;
     align-items: center;
 }
 
-nav .logo span {
+.logo span {
     font-family: 'Sen', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -81,6 +83,8 @@ ul li a {
 header {
     justify-content: space-around;
     overflow: hidden;
+    max-width: 1440px;
+    width: 100%;
 }
 
 /* Header left */
@@ -287,6 +291,10 @@ header .manimgbox .manimg {
 
 
 /* cagegories  */
+.categories{
+    max-width: 1440px;
+    width: 100%;
+}
 
 /* first */
 .categories .first {
@@ -369,6 +377,8 @@ header .manimgbox .manimg {
 .experience {
     margin-top: 50px;
     justify-content: space-evenly;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .experience .left {
@@ -549,7 +559,9 @@ header .manimgbox .manimg {
 
 /* Features 03 Popular Dedtinations */
 .features3 {
-    margin: 130px 0;
+    margin: 75px 0;
+    max-width: 1440px;
+    width: 100%;
 }
 
 /* first */
@@ -594,7 +606,7 @@ header .manimgbox .manimg {
 .features3 .secend {
     overflow-y: scroll;
     gap: 30px;
-    margin: 100px;
+    margin: 50px;
     height: 470px;
 
 }
@@ -681,6 +693,8 @@ header .manimgbox .manimg {
 .section4 {
     font-family: 'Inter Tight', sans-serif;
     flex-direction: column;
+    max-width: 1440px;
+    width: 100%;
 }
 
 /* first */
@@ -704,6 +718,7 @@ header .manimgbox .manimg {
 
 .section4 .first .ariasbuttons {
     gap: 14px;
+    margin-bottom: 35px;
 }
 
 /* buttons */
@@ -805,6 +820,8 @@ header .manimgbox .manimg {
     font-family: 'Inter Tight', sans-serif;
     justify-content: space-evenly;
     margin: 120px 0;
+    max-width: 1440px;
+    width: 100%;
 }
 
 /* frist */
@@ -891,6 +908,8 @@ header .manimgbox .manimg {
 .Newsletter {
     justify-content: center;
     font-family: 'Inter Tight', sans-serif;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .Newsletter .main {
@@ -954,4 +973,77 @@ margin-left: 20px;
 }
 .emailbox button:hover{
     cursor: pointer;
+}
+/* End Newsletter */
+/* ----------------------------
+----------------------- */
+
+/* Footer */
+footer{
+    font-family: 'Inter Tight', sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    margin: 140px 0 50px;
+}
+
+/* footer first */
+footer .first{
+    margin-right: 120px;
+}
+footer .logo {
+    margin: 0;
+}
+
+footer p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #5B5F62;
+width: 141px;
+margin-top: 20px;
+}
+
+footer .medialogos{
+    gap: 14px;
+    margin-top: 40px;
+}
+
+
+/* secend */
+
+footer .secend{
+gap: 51.5px;
+}
+footer h3{
+    font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #2D3134;
+margin-bottom: 15px;
+}
+
+footer li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;   
+    color: #676A6C;
+}
+/* medias Buttons */
+
+.mediabtn{
+    width: 32px;
+    height: 32px;  
+    border-radius: 50%;
+    border: 1px solid #F66F4D;
+    color: #F66F4D;
+}
+.mediabtn:hover{
+    border-color: #5B5F62;
+    color: #5B5F62;
+    background-color: transparent;
+    cursor: pointer;
+
+    position: relative;
+    z-index: 5;
+    scale: 1.1;
 }
