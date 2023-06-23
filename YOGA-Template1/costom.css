@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* this is costom css use in class  */
+
+.nexc{
+    background: linear-gradient(73.19deg,
+        rgba(255, 82, 181, 1) 0%,
+        rgba(159, 83, 255, 1) 100%);
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent
+}
+.nexbg{
+    background: linear-gradient(73.19deg,
+        rgba(255, 82, 181, 1) 0%,
+        rgba(159, 83, 255, 1) 100%);
+}
+/* font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif; */
+.fp{
+    font-family: 'Poppins', sans-serif;
+}
+.fl{
+    font-family: 'Lora', serif;
+}
+
