@@ -11,141 +11,176 @@
 </head>
 <body class=" bg-[#F5F0FF]">
     <!-- navigeson bar -->
-    <nav class="flex justify-evenly items-center pb-[29px] pt-[28px]">
+    <nav class="flex justify-evenly items-center pb-[29px] pt-[28px] ">
         <span class="text-3xl font-medium nexc fp ">Yoga</span>
-        <ul class="flex gap-10 ">
-            <li><a href="#" class="text-xl font-medium fp text-[#220953]">Home</a></li>
-            <li><a href="#" class="text-xl font-medium fp text-[#220953]">Health</a></li>
-            <li><a href="#" class="text-xl font-medium fp text-[#220953]">Rouline</a></li>
-            <li><a href="#" class="text-xl font-medium fp text-[#220953]">Follow</a></li>
-            <button>night</button>
+        <ul class="flex gap-10">
+            <li class="hidden sm:inline-block"><a href="#" class="text-xl font-medium fp text-[#220953]">Home</a></li>
+            <li class="hidden sm:inline-block"><a href="#" class="text-xl font-medium fp text-[#220953]">Health</a></li>
+            <li class="hidden sm:inline-block"><a href="#" class="text-xl font-medium fp text-[#220953]">Rouline</a></li>
+            <li class="hidden sm:inline-block"><a href="#" class="text-xl font-medium fp text-[#220953]">Follow</a></li>
+            <button class="inline-block md:hidden">night</button>
         </ul>
     </nav>
-    <section class=" flex gap-[72px] justify-evenly ">
-        <div class="w-[576px] ml-40 items-center mb-20">
-            <h1 class="text-[#220953] text-[96px] font-medium fl ">Choose You Best <span class="w-[238px] h-[130px] displ nexbg text-white bottom-4 inline-block rounded-xl rotate-12 pl-3 leading-[130%] ">Yoga</span> Teacher.</h1>
-            <p class="fp text-base text-[#4B3E65] w-[417px] mt-5 mb-8">Calm your mind and body with the best yoga teachers available, relax your day and stay positive.</p>
+    <section class=" flex flex-col px-4 md:flex-row md:gap-[72px] md:justify-evenly  ">
+        <div class=" flex flex-col items-center sm:w-[576px] md:ml-40 md:mb-20 md:items-start">
+            <h1 class="text-[#220953] text-[46px]  px-3 font-medium fl text-center sm:text-[96px] md:text-left">Choose You Best <span class=" nexbg text-white inline-block rounded-xl rotate-12 px-3 py-2  sm:w-[238px] leading-[130%] bottom-4">Yoga</span> Teacher.</h1>
+            <p class=" fp text-sm text-[#4B3E65] mt-5 mb-8  text-center sm:text-base md:w-[417px] md:text-left">Calm your mind and body with the best yoga teachers available, relax your day and stay positive.</p>
             <!-- button -->
-            <button class="px-7 py-4 nexbg text-white rounded-full flex text-base fp font-medium items-center">Get Started Free <img src="./icons/arrow-right.png" alt=""></button>
+            <button class="px-7 py-4 nexbg text-white rounded-full flex text-sm fp font-medium items-center sm:text-base">Get Started Free <img src="./icons/arrow-right.png" alt=""></button>
             <!-- numbers -->
             <div class="flex gap-16 mt-12">
                 <div class="">
-                    <span class="text-[56px] fl text-[#220953]">300+</span>
-                    <p class="text-sm fp tetx-[#220953]">yoga Class</p>
+                    <span class="text-[30px] fl text-[#220953] sm:text-[56px]">300+</span>
+                    <p class="text-xs fp text-[#220953] sm:text-sm">yoga Class</p>
                 </div>
                 <div class="">
-                    <span class="text-[56px] fl text-[#220953]">45+</span>
-                    <p class="text-sm fp tetx-[#220953]">Participants</p>
+                    <span class="text-[30px] fl text-[#220953] sm:text-[56px]">45+</span>
+                    <p class="text-xs fp text-[#220953] sm:text-sm">Participants</p>
                 </div>
             </div>
         </div>
-        <div class="">
+        <div class="px-4">
             <img src="./imgs/home-yoga.png" alt="">
         </div>
     </section>
     <!-- section 2 -->
-    <section class="flex items-center justify-center gap-10 my-12 py-12">        
-            <span class="text-[#220953] text-[56px] fl font-medium">#01</span>
-            <div class="w-[400px] h-[188px] rounded-full bg-[#E5D9FD] static ">
-                <img class="relative bottom-[2.8rem] left-[2.5rem] " src="./imgs/list-yoga.png" alt="">
+    <section class="flex flex-col items-center justify-center gap-10 my-12 py-12 md:flex-row"> 
+        <div class="flex items-center justify-center gap-10 sm:my-12 sm:py-12">
+            <span class="text-[#220953] text-[28px] fl font-medium sm:text-[56px]">#01</span>
+            <div class="w-[230px] h-[100px] rounded-full bg-[#E5D9FD] static sm:w-[400px] sm:h-[188px]">
+                <img class=" relative bottom-[2.8rem] sm:left-[2.5rem] " src="./imgs/list-yoga.png" alt="">
             </div>        
-        <div class="">
-            <p class="w-[328px] text-base fp text-[#4B3E65]">Get a list of specific influencers in your niche at your fingertips so you can focus on managing your status.</p>
-        </div>
-        <!-- button -->
-        <button class="text-base font-medium nexc fp flex justify-center">Next <img src="./icons/ri_arrow-right-line (1).png" alt=""></button>
+        </div>       
+    <div class="">
+        <p class="w-[328px] text-base fp text-[#4B3E65]">Get a list of specific influencers in your niche at your fingertips so you can focus on managing your status.</p>
+    </div>
+    <!-- button -->
+    <button class="text-base font-medium nexc fp flex justify-center">Next <img src="./icons/ri_arrow-right-line (1).png" alt=""></button>
     </section>
-     <!-- section 3 -->
-     <section class="my-12  flex justify-center gap-8 ">
-<div class="">
+    <!-- section 3 -->
+<section class="my-12  flex justify-center flex-col-reverse gap-10 px-8 md:flex-row">
+    <div class="">
     <img src="./imgs/health-fitness.png" alt="">
-</div>
-<div class="flex flex-col items-start w-[579px] ">
-    <p class="text-[64px] fl text-[#220653]  ">Bring Happiness To Good Health!</p>
-    <p class="text-base fp text-[#4B3E65] mt-10 mb-12">If you take care of your good health, take care of your mentality and lead a healthy life with positive thoughts every day.</p>
+    </div>
+    <div class="flex flex-col w-[289px] items-center text-center md:w-[579px] md:items-start md:text-left ">
+    <p class="text-[32px] fl text-[#220653] md:text-[64px] ">Bring Happiness To Good Health!</p>
+    <p class="text-[15px] fp text-[#4B3E65] mt-10 mb-12 md:text-base">If you take care of your good health, take care of your mentality and lead a healthy life with positive thoughts every day.</p>
     <!-- Button -->
     <button class="px-7 py-4 nexbg text-white rounded-full flex text-base fp font-medium items-center">Lest's Start <img src="./icons/arrow-right.png" alt=""></button>
-</div>
-     </section>
-     <!-- section 4 -->
-     <section class="my-10 flex gap-16 items-center justify-center">
-        <!-- left -->
-        <div class="mt-6">
-            <p class="text-[64px] fl text-[#220953] w-[396px] ">Anytime, Any Place, Any Workout</p>
-            <p class="text-base fp text-[#4B3E65] w-[465px] mt-10 mb-8">Take your routine at any time of your day, with the new videos and with the teachers who will guide you.</p>
+    </div>
+    </section>
+    <!-- section 4 -->
+<section class="my-10 flex gap-16 items-center justify-center flex-col md:flex-row">
+    <!-- left -->
+    <div class="mt-6 text-center flex flex-col justify-center items-center md: flex-none md:text-left md:items-start">
+        <p class=" fl text-[#220953] w-[295px] text-[32px] md:w-[396px] md:text-[64px] ">Anytime, Any Place, Any Workout</p>
+        <p class=" fp text-[15px] text-[#4B3E65] w-[331px] mt-10 mb-8 md:w-[465px] md:text-base">Take your routine at any time of your day, with the new videos and with the teachers who will guide you.</p>
+        <!-- button -->
+        <button class="px-7 py-4 nexbg text-white rounded-full flex text-base fp font-medium items-center">Get Start Free <img src="./icons/arrow-right.png" alt=""></button>
+    </div>
+    <!-- right -->
+    <div class="">
+        <div class="relative top-24 right-16 w-[250px] md:w-[500px]"> <img " src="./imgs/routine-yoga-1.png" alt=""></div>
+        <div class="w-[250px] md:w-[500px]"><img src="./imgs/routine-yoga-2.png" alt=""></div>      
+    </div>
+    </section>
+    <!-- section 5 -->
+<section class=" flex flex-col justify-center my-12">
+    <!-- 767px -->
+    <div class="hidden md:inline-block">
+
+    <div class=" items-center justify-center gap-10 flex">
+        <img class="" src="./imgs/follow-yoga-1.png" alt="">
+        <div class="relative z-10 top-28 w-[396px] flex flex-col items-center ">
+            <p class="text-[32px] md:text-[64px] text-[#220953] fl ">Follow Us On </p>
+            <p class="text-[32px] md:text-[64px] text-[#220953] fl">Intagram</p>
+            <p class="text-[32px] md:text-[64px] font-medium nexc fp">#YOGA</p>
             <!-- button -->
-            <button class="px-7 py-4 nexbg text-white rounded-full flex text-base fp font-medium items-center">Get Start Free <img src="./icons/arrow-right.png" alt=""></button>
+            <button class="w-[88px] h-[88px] nexbg text-white rounded-full flex flex-col text-[16px] fp font-medium items-center justify-center">Follow <img src="./icons/arrow-right.png" alt=""></button>
         </div>
-        <!-- right -->
-        <div class="">
-            <div class="relative top-24 right-16"> <img " src="./imgs/routine-yoga-1.png" alt=""></div>
-            <div class=""><img src="./imgs/routine-yoga-2.png" alt=""></div>
-            
+        <img src="./imgs/follow-yoga-2.png" alt="">
+    </div>
+</div>
+    <!-- mobile -->
+    <div class=" flex flex-col justify-center items-center md:hidden">
+        <div class="relative z-10 w-[225px] flex flex-col items-center ">
+            <p class="text-[32px] text-[#220953] fl ">Follow Us On </p>
+            <p class="text-[32px] text-[#220953] fl">Intagram</p>
+            <p class="text-[32px] font-medium nexc fp">#YOGA</p>
+            <!-- button -->
+            <button class="w-[88px] h-[88px] nexbg text-white rounded-full flex flex-col text-[16px] fp font-medium items-center justify-center">Follow <img src="./icons/arrow-right.png" alt=""></button>
         </div>
-     </section>
-     <!-- section 5 -->
-     <section class=" flex flex-col justify-center my-12">
-        <div class="flex items-center justify-center gap-10">
-            <img src="./imgs/follow-yoga-1.png" alt="">
-            <div class="relative z-10 top-28 w-[396px] flex flex-col items-center ">
-                <p class="text-[64px] text-[#220953] fl ">Follow Us On </p>
-                <p class="text-[64px] text-[#220953] fl">Intagram</p>
-                <p class="text-[64px] font-medium nexc fp">#YOGA</p>
-                <!-- button -->
-                <button class="w-[88px] h-[88px] nexbg text-white rounded-full flex flex-col text-[16px] fp font-medium items-center justify-center">Follow <img src="./icons/arrow-right.png" alt=""></button>
-            </div>
-            <img src="./imgs/follow-yoga-2.png" alt="">
-        </div>
-        <div class=" flex items-center justify-center gap-14 mt-12">
-            <img src="./imgs/follow-yoga-3.png" alt="">
-            <img src="./imgs/follow-yoga-4.png" alt="">
-        </div>
-     </section>
-     <!-- section 6 -->
-     <section class=" flex justify-center mt-12 mb-20"> 
-        <div class="nexbg rounded-3xl w-[992px] flex flex-col justify-center items-center p-16">   
-        <p class="text-[56px] fl text-white">Join our newsletter</p>
-        <p class="text-[15px] fp w-[567px] text-white mt-4 mb-10 text-center">Subscribe to our newsletter to be aware of many things on discounts, gifts, training and much more. Just enter your email.</p>
-        <!-- Email send  -->
-        <div class=" bg-white rounded-full w-[528px] h-[72px] flex justify-center items-center gap-8">
-            <input type="email" name="" id="" placeholder="For latest update send mail" class="outline-none bg-white text-base fp text-[#A197B4] ml-4">
-            <button class="px-7 py-4 nexbg text-white rounded-full flex text-[16px] fp font-medium items-center "> Subscribe <img src="./icons/arrow-right.png" alt=""></button>
+        <div class="flex gap-8">
+            <img class="w-[140px]" src="./imgs/follow-yoga-2.png" alt="">
+            <img class=" w-[140px]" src="./imgs/follow-yoga-1.png" alt="">
         </div>
     </div>
-     </section>
-     <!-- footer -->
-     <footer class="flex justify-center flex-col items-center py-16 bg-[#1E0849]">
-        <div class="flex gap-20">
-            <div class="">
-                <span class="nexc text-2xl fl mb-10">Yoga</span>
-                <p class="w-[244px] text-base text-[#A197B4] fp">Take care of your health and your mind with the best Yoga classes.</p>
-            </div>
 
-            <div class="flex gap-8">           
-            <div class=" ">
-                <span class="text-white text-2xl fl mb-10">Address</span>
-                <p class="w-[244px] text-base text-[#A197B4] fp">123132 m/01 <br> MP, India</p>
-            </div>
-            <div class="">
-                <span class="text-white text-2xl fl mb-10">Content</span>
-                <p class="w-[244px] text-base text-[#A197B4] fp">+91 8888 88888 <br>abisheksoni.as444@gmail.com</p>
-            </div>
-            <div class="">
-                <span class="text-white text-2xl fl mb-10">Office</span>
-                <p class="w-[244px] text-base text-[#A197B4] fp">Monday -Saturday <br>9AM - 10PM</p>
-            </div>
+    </div>
+    <!-- risponsive -->
+    <div class=" flex items-center justify-center mt-12 flex-col md:flex-row md:gap-14">
+        <img class="mr-20 md:mr-0 w-[230px] md:w-[500px]" src="./imgs/follow-yoga-3.png" alt="">
+        <img  class=" ml-20 w-[230px] md:ml-0 md:w-[500px]"src="./imgs/follow-yoga-4.png" alt="">
+    </div>
+    </section>
+    <!-- section 6 -->
+<section class=" flex justify-center mt-12 mb-20"> 
+    <div class="nexbg rounded-3xl  flex flex-col justify-center items-center p-7 md:p-16 w-[328px] md:w-[992px]">   
+    <p class="text-[28px] md:text-[56px] fl text-white">Join our newsletter</p>
+    <p class="text-[15px] fp md:w-[567px] text-white mt-4 mb-10 text-center">Subscribe to our newsletter to be aware of many things on discounts, gifts, training and much more. Just enter your email.</p>
+    <!-- Email send responsive m&p -->
+    <div class=" bg-white rounded-full w-[296px] h-[55px] md:h-[72px] flex justify-center items-center md:gap-8 md:w-[528px]">
+        <input type="email" name="" id="" placeholder="For latest update send mail" class="outline-none bg-white text-sm md:text-base fp text-[#A197B4] ml-4">
+        <!-- button hidden in mobile -->
+        <div class=" hidden md:inline-block">
+            <button class="px-7 py-4 nexbg text-white rounded-full flex text-[16px] fp font-medium items-center"> Subscribe <img src="./icons/arrow-right.png" alt=""></button>
         </div>
-
+        
+    </div>
+    <!-- button hidden in pc -->
+    <button class=" mt-4 px-7 py-4 nexbg text-white rounded-full flex text-[16px] fp font-medium items-center shadow-lg  md:hidden"> Subscribe <img src="./icons/arrow-right.png" alt=""></button>
+    </div>
+    </section>
+    <!-- footer -->
+<footer class="flex justify-center flex-col items-center py-16 bg-[#1E0849]">
+    <div class="flex gap-48 flex-col md:flex-row">
+        <div class="">
+            <span class="nexc text-2xl fl ">Yoga</span>
+            <p class="w-[244px] text-base text-[#A197B4] fp mt-7">Take care of your health and your mind with the best Yoga classes.</p>
         </div>
-        <!-- 1px line -->
-        <div class="w-11/12 h-[1px] bg-[#A197B4]"></div>
-        <!-- copy right  -->
+    
+        <div class="flex gap-9 flex-col md:flex-row">           
         <div class=" ">
-            <div class=""></div>
-            <div class="">
-                <p class="text-base text-[#A197B4] fp">&#169; COPYRIGHT by abhisheksoni</p>
-            </div>
+            <span class="text-white text-2xl fl ">Address</span>
+            <p class="w-[244px] text-base text-[#A197B4] fp mt-7">123132 m/01 <br> MP, India</p>
         </div>
-     </footer>
+        <div class="">
+            <span class="text-white text-2xl fl ">Content</span>
+            <p class="w-[244px] text-base text-[#A197B4] fp mt-7">+91 8888 88888 <br>abisheksoni.as444@gmail.com</p>
+        </div>
+        <div class="">
+            <span class="text-white text-2xl fl ">Office</span>
+            <p class="w-[244px] text-base text-[#A197B4] fp mt-7">Monday -Saturday <br>9AM - 10PM</p>
+        </div>
+    </div>
+    
+    </div>
+    <!-- 1px line -->
+    <div class="w-11/12 h-[1px] bg-[#A197B4]"></div>
+    <!-- copy right  -->
+    <div class="flex justify-evenly md:gap-48 md:mt-10 flex-col md:flex-row">
+        <!-- social media icons & link button -->
+        <div class=" flex gap-8">
+            <button class="items-center"><img src="./icons/ri_facebook-circle-line.png" alt=""></button>
+            <button class="items-center"><img src="./icons/ri_instagram-line.png" alt=""></button>
+            <button class="items-center"><img src="./icons/ri_twitter-line.png" alt=""></button>
+            <button class="items-center"><img src="./icons/ri_youtube-line.png" alt=""></button>
+        </div>
+        <!-- copyright -->
+        <div class="">
+            <p class="text-base text-[#A197B4] fp">&#169; COPYRIGHT by AbhishekSoni. All right reserved</p>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>
